@@ -1,4 +1,4 @@
-.img-fluid{
+#hand{
     width:100%;
 }
 .centered {
@@ -19,7 +19,7 @@
 a{
     color:black;
 }
-.container-fluid{
+#home{
     height:75px;
    
 }
@@ -47,6 +47,10 @@ a{
 #services{
     width:100%;
   
+}
+#gallery{
+    
+    width:100%;
 }
 
 
