@@ -1,0 +1,36 @@
+.form-group input[type="checkbox"] {
+    display: none;
+}
+
+.form-group input[type="checkbox"] + .btn-group > label span {
+    width: 10px;
+}
+
+.form-group input[type="checkbox"] + .btn-group > label span:first-child {
+    display: none;
+}
+.form-group input[type="checkbox"] + .btn-group > label span:last-child {
+    display: inline-block;   
+}
+
+.form-group input[type="checkbox"]:checked + .btn-group > label span:first-child {
+    display: inline-block;
+}
+.form-group input[type="checkbox"]:checked + .btn-group > label span:last-child {
+    display: none;   
+}
+#submit {
+	text-align: center;
+}
+#checks div div div label {font-size:12px;}
+
+#exampleFormControlSelect4 {
+	width:60px;
+	height:30px;
+	display:inline;
+}
+.range {
+	padding-left:10px;
+	color:orange;
+	font-weight:600;
+}

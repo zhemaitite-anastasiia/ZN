@@ -1,0 +1,25 @@
+.imagesize img {
+    width: 330px;
+    height: auto;
+      border: none;
+      margin: 0;
+      padding: 0;
+  }
+  
+   .imagesize {
+      display: inline-block;
+      width: 330px;
+      height: 190px;
+      overflow: hidden;
+      border: 5px solid #FFFFFF;
+      background: #FFFFFF;
+      outline: 1px solid #CCCCCC;
+      margin: 10px;
+    }
+  
+  #cell {
+      padding-bottom: 50px;
+  }
+  #pagination{
+      text-align: center;
+  }
