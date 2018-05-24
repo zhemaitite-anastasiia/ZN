@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/*
+ * blueimp Gallery Video Factory CSS
+ * https://github.com/blueimp/Gallery
+ *
+ * Copyright 2013, Sebastian Tschan
+ * https://blueimp.net
+ *
+ * Licensed under the MIT license:
+ * https://opensource.org/licenses/MIT
+ */
+
+.gt3pg_gallery_wrap > .gt3pg_slides > .gt3pg_slide > .gt3pg_video_content > img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  /* Prevent artifacts in Mozilla Firefox: */
+  -moz-backface-visibility: hidden;
+}
+.gt3pg_gallery_wrap > .gt3pg_slides > .gt3pg_slide > .gt3pg_video_content > .gt3pg_video_poster ,
+.gt3pg_gallery_wrap > .gt3pg_slides > .gt3pg_slide > .gt3pg_video_content > video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.gt3pg_gallery_wrap > .gt3pg_slides > .gt3pg_slide > .gt3pg_video_content > iframe {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.gt3pg_gallery_wrap > .gt3pg_slides > .gt3pg_slide > .gt3pg_video_playing > iframe {
+  top: 0;
+}
+.gt3pg_gallery_wrap > .gt3pg_slides > .gt3pg_slide > .gt3pg_video_content > a {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  margin: -64px auto 0;
+  width: 128px;
+  height: 128px;
+  opacity: 1;
+  cursor: pointer;
+  -webkit-transition: opacity 300ms;
+  -moz-transition: opacity 300ms;
+  -ms-transition: opacity 300ms;
+  -o-transition: opacity 300ms;
+  transition: opacity 300ms;
+  background-image: url("../img/video-play.png");
+  background-repeat: no-repeat;
+  background-size: 45px 45px;
+  background-position: center center;
+}
+.gt3pg_gallery_wrap > .gt3pg_slides > .gt3pg_slide > .gt3pg_video_content > a:hover {
+  opacity: 0.8;
+}
+.gt3pg_gallery_wrap > .gt3pg_slides > .gt3pg_slide > .gt3pg_video_playing > .gt3pg_video_poster ,
+.gt3pg_gallery_wrap > .gt3pg_slides > .gt3pg_slide > .gt3pg_video_playing > a,
+.gt3pg_gallery_wrap > .gt3pg_slides > .gt3pg_slide > .gt3pg_video_playing > img {
+  display: none;
+}
+.gt3pg_gallery_wrap > .gt3pg_slides > .gt3pg_slide > .gt3pg_video_content > video {
+  display: none;
+}
+.gt3pg_gallery_wrap > .gt3pg_slides > .gt3pg_slide > .gt3pg_video_playing > video {
+  display: block;
+}
+.gt3pg_gallery_wrap > .gt3pg_slides > .gt3pg_slide > .gt3pg_video_loading > a {
+  background: url(../img/loading.svg) center no-repeat;
+  background-size: 64px 64px;
+}
+
+.gt3pg_gallery_wrap > .gt3pg_slides > .gt3pg_slide > .gt3pg_video_content > .gt3pg_cover {
+  background-size: cover;
+}
+.gt3pg_gallery_wrap > .gt3pg_slides > .gt3pg_slide > .gt3pg_video_content > .gt3pg_contain {
+  background-size: contain;
+}
+
+
+/* IE7 fixes */
+*+html .gt3pg_gallery_wrap > .gt3pg_slides > .gt3pg_slide > .gt3pg_video_content {
+  height: 100%;
+}
+*+html .gt3pg_gallery_wrap > .gt3pg_slides > .gt3pg_slide > .gt3pg_video_content > a {
+  left: 50%;
+  margin-left: -64px;
+}
+
+@media screen and (max-width: 420px) {
+  .gt3pg_gallery_wrap > .gt3pg_slides > .gt3pg_slide > .gt3pg_video_loading > a {
+    background-size: 54px 54px;
+  }
+}
