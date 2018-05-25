@@ -449,12 +449,14 @@
  
  .header-benefits__text {
      font-weight: 200;
+     color:black;
  }
  
  .header-benefits__number {
      font-size: 32px;
      margin-bottom: 17px;
      white-space: nowrap;
+     color:black;
  }
  
  .header-benefits__text {
