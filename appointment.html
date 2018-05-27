@@ -318,8 +318,7 @@
             margin-top: 41px">
     
                     <div class="content-area">
-            
-    
+                            
             
             <div class="container">
                     <div class="row">
@@ -328,9 +327,10 @@
                                         <div class="well-title">
                                             <h2>Your Appointment is just couple clicks away!</h2>
                                         </div>
-                                        <form>
+                                        <form method="POST" action="https://formspree.io/zoyasnails@gmail.com"> 
                                             <!-- Form start -->
-                                            <div class="row">
+                                            <!-- <div class="row">
+                                                    
                                                 <div class="col-md-6">
                                                     <div class="form-group">
                                                         <label class="control-label" for="name">Name</label>
@@ -338,6 +338,12 @@
                                                     </div>
                                                 </div>
                                                 <!-- Text input-->
+                                                <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="control-label" for="Name">Name</label>
+                                                            <input id="name" name="name" type="text" placeholder="Name" class="form-control input-md">
+                                                        </div>
+                                                    </div>
                                                 <div class="col-md-6">
                                                     <div class="form-group">
                                                         <label class="control-label" for="email">Email</label>
@@ -362,17 +368,18 @@
                                                         <div class="form-group">
                                                             <label class="control-label" for="appointmentfor">Preferred Time</label>
                                                             <select id="appointmentfor" name="appointmentfor" class="form-control">
-                                                                <option value="Time#1">8a.m.</option>
-                                                                <option value="Time#2">9a.m.</option>
-                                                                <option value="Time#3">10a.m.</option>
-                                                                <option value="Time#4">11a.m.</option>
-                                                                <option value="Time#5">12a.m.</option>
-                                                                <option value="Time#6">1p.m.</option>
-                                                                <option value="Time#7">2p.m.</option>
-                                                                <option value="Time#8">3p.m.</option>
-                                                                <option value="Time#9">4p.m.</option>
-                                                                <option value="Time#10">5p.m.</option>
-                                                                <option value="Time#11">6p.m.</option>
+                                                                <option value="8 a.m.">8a.m.</option>
+                                                                <option value="9 a.m.">9a.m.</option>
+                                                                <option value="10 a.m.">10a.m.</option>
+                                                                <option value="11 a.m.">11a.m.</option>
+                                                                <option value="12 p.m.">12p.m.</option>
+                                                                <option value="1 p.m.">1p.m.</option>
+                                                                <option value="2 p.m.">2p.m.</option>
+                                                                <option value="3 p.m.">3p.m.</option>
+                                                                <option value="4 p.m.">4p.m.</option>
+                                                                <option value="5 p.m.">5p.m.</option>
+                                                                <option value="6 p.m.">6p.m.</option>
+                                                               
                                                               
                                                             </select>
                                                         </div>
@@ -382,29 +389,27 @@
                                                     <div class="form-group">
                                                         <label class="control-label" for="appointmentfor">Appointment For</label>
                                                         <select id="appointmentfor" name="appointmentfor" class="form-control">
-                                                            <option value="Service#1">Regular Manicure</option>
-                                                            <option value="Service#2">Polish Change(Mani)</option>
-                                                            <option value="Service#3">No-Chip Manicure</option>
-                                                            <option value="Service#4">Gel Polish Manicure</option>
-                                                            <option value="Service#5">Hard Gel Cover Up</option>
-                                                            <option value="Service#6">Hard Gel Correction</option>
-                                                            <option value="Service#7">Correction on Hard Gel nails done elsewhere</option>
-                                                            <option value="Service#8">Repair, Extend, Correct</option>
-                                                            <option value="Service#9">Soak Off No-Chip and Gel Polish Removal</option>
-                                                            <option value="Service#10">Soak Off Hard Gel and Acrylic Removal</option>
-                                                            <option value="Service#11">Add a No-Chip Top Coat (for strength)</option>
-                                                            <option value="Service#12">Add a Gel Polish Top Coat (for strength)</option>
-                                                            <option value="Service#14">Mini Pedicure</option>
-                                                            <option value="Service#15">Regular Pedicure</option>
-                                                            <option value="Service#16">Polish Change(Pedi)</option>
-                                                            <option value="Service#17">No Chip or Gel Polish Pedicure</option>
-                                                            <option value="Service#18">Regular Manicure and Mini Pedicure</option>
-                                                            <option value="Service#19">Regular Manicure and Regular Pedicure</option>
-                                                            <option value="Service#20">No-Chip Manicure and Regular Pedicure</option>
-                                                            <option value="Service#21">No-Chip Manicure and No-Chip Pedicure</option>
-                                                            <option value="Service#22">Gel Polish Manicure and Mini Pedicure</option>
-                                                            <option value="Service#23">Gel Polish Manicure and Regular Pedicure</option>
-                                                            <option value="Service#24">Gel Polish Manicure and Gel Polish Pedicure</option>
+                                                            <option value="Regular Manicure">Regular Manicure</option>
+                                                            <option value="Polish Change(Mani)">Polish Change(Mani)</option>
+                                                            <option value="No-Chip Manicure">No-Chip Manicure</option>
+                                                            <option value="Gel Polish Manicure ">Gel Polish Manicure</option>
+                                                            <option value="Hard Gel Cover Up">Hard Gel Cover Up</option>
+                                                            <option value="Hard Gel Correction">Hard Gel Correction</option>
+                                                            <option value="Correction on Hard Gel nails done elsewhere">Correction on Hard Gel nails done elsewhere</option>
+                                                            <option value="Repair,Extend,Correct">Repair, Extend, Correct</option>
+                                                            <option value="Soak off No-Chip and Gel Polish Removal">Soak Off No-Chip and Gel Polish Removal</option>
+                                                            <option value="Soak Off Hard Gel and Acrylic Removal">Soak Off Hard Gel and Acrylic Removal</option>
+                                                            <option value="Mini Pedicure">Mini Pedicure</option>
+                                                            <option value="Regular Pedicure">Regular Pedicure</option>
+                                                            <option value="Polish Change(pedi)">Polish Change(Pedi)</option>
+                                                            <option value="No Chip or Gel Polish Pedicure">No Chip or Gel Polish Pedicure</option>
+                                                            <option value="Regular Manicure and Mini Pedicure">Regular Manicure and Mini Pedicure</option>
+                                                            <option value="Regular Manicure and Regular Pedicure">Regular Manicure and Regular Pedicure</option>
+                                                            <option value="No-Chip Manicure and Regular Pedicure">No-Chip Manicure and Regular Pedicure</option>
+                                                            <option value="No-Chip Manicure and No-Chip Pedicure">No-Chip Manicure and No-Chip Pedicure</option>
+                                                            <option value="Gel Polish Manicure and Mini Pedicure">Gel Polish Manicure and Mini Pedicure</option>
+                                                            <option value="Gel Polish Manicure and Regular Pedicure">Gel Polish Manicure and Regular Pedicure</option>
+                                                            <option value="Gel Polish Manicure and Gel Polish Pedicure">Gel Polish Manicure and Gel Polish Pedicure</option>
                                                           
                                                         </select>
                                                     </div>
@@ -412,11 +417,12 @@
                                                 <!-- Button -->
                                                 <div class="col-md-12">
                                                     <div class="form-group">
-                                                        <button id="singlebutton" name="singlebutton" class="btn btn-default">Make An Appointment</button>
+                                                        <button id="Have a nice day, Zoya!" name="Have a nice day, Zoya!" class="btn btn-default">Make An Appointment</button>
                                                     </div>
                                                 </div>
                                             </div>
                                         </form>
+                                    
                                         <!-- form end -->
                                     </div>
                                 </div>	</div>
