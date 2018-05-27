@@ -798,7 +798,18 @@
                    </div>
                </footer>
                                      
-         <
+               <style type="text/css">#sfsi_plus_floater { margin-bottom:30px;margin-right:0px; }</style>
+               <div class="sfsiplus_norm_row sfsi_plus_wDiv" id="sfsi_plus_floater" style="z-index: 9999;width:225px;text-align:left;position:absolute;position:absolute;right:30px;bottom:0px" data-top="5110"><div style="width:40px; height:40px;margin-left:5px;margin-bottom:5px;" class="sfsi_plus_wicons shuffeldiv cmcls"><div class="sfsiplus_inerCnt"><a class=" sficn" effect="" target="_blank" href="https://www.instagram.com/zoyas_nails_/" id="sfsiplusid_custom" style="opacity:1"><img alt="SOCIALICON" title="SOCIALICON" src="wp-content/uploads/2018/04/plus_custom_icon6.png" width="40" height="40" style="" class="sfcm sfsi_wicon" effect=""></a></div></div><div style="width:40px; height:40px;margin-left:5px;margin-bottom:5px;" class="sfsi_plus_wicons shuffeldiv cmcls"><div class="sfsiplus_inerCnt"><a class=" sficn" effect="" target="_blank" href="https://www.pinterest.com/zoyasnails/?eq=Zoya%27s&etslf=5997" id="sfsiplusid_custom" style="opacity:1"><img alt="SOCIALICON" title="SOCIALICON" src="wp-content/uploads/2018/04/plus_custom_icon11.png" width="40" height="40" style="" class="sfcm sfsi_wicon" effect=""></a></div></div><div style="width:40px; height:40px;margin-left:5px;margin-bottom:5px;" class="sfsi_plus_wicons shuffeldiv cmcls"><div class="sfsiplus_inerCnt"><a class=" sficn" effect="" target="_blank" href="https://www.facebook.com/zoyasnails/" id="sfsiplusid_custom" style="opacity:1"><img alt="SOCIALICON" title="SOCIALICON" src="wp-content/uploads/2018/04/plus_custom_icon12.png" width="40" height="40" style="" class="sfcm sfsi_wicon" effect=""></a></div></div></div>
+               <input type="hidden" id="sfsi_plus_floater_sec" value="bottom-right">
+               <script>jQuery(".sfsi_plus_widget").each(function( index ) {
+                      if(jQuery(this).attr("data-position") == "widget")
+                      {
+                          var wdgt_hght = jQuery(this).children(".sfsiplus_norm_row.sfsi_plus_wDiv").height();
+                          var title_hght = jQuery(this).parent(".widget.sfsi_plus").children(".widget-title").height();
+                          var totl_hght = parseInt( title_hght ) + parseInt( wdgt_hght );
+                          jQuery(this).parent(".widget.sfsi_plus").css("min-height", totl_hght+"px");
+                      }
+                  });jQuery( document ).ready(function( $ ) { sfsi_plus_float_widget('bottom')});</script>
             <script src="/wp-content/themes/js/services.js"></script>
     
             
