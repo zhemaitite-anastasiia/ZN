@@ -143,7 +143,18 @@ body .widget_stm_schedule .stm_schedule_title_separator span
 
  
 <!-- END - Open Graph for Facebook, Google+ and Twitter Card Tags 2.2.4 -->
-	
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+<script>$('.counter-count').each(function () {
+        $(this).prop('Counter',0).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 5000,
+            easing: 'swing',
+            step: function (now) {
+                $(this).text(Math.ceil(now));
+            }
+        });
+    });</script>	
 </head>
 <body class="home page-template-default page page-id-1240  header_style_default boxed_bg_image_default elementor-default elementor-page elementor-page-1240">
 <div id="wrapper">
@@ -168,7 +179,7 @@ body .widget_stm_schedule .stm_schedule_title_separator span
 
         <div class="video-container" style="z-index: 1">
 				<video autoplay loop muted class="video">
-						<source src="http://mirrors.standaloneinstaller.com/video-sample/grb_2.mp4" type="video/mp4">
+						<source src="wp-content/uploads/2018/trailer.mp4" type="video/mp4">
 					</video>
             <!-- <video class="video" muted="muted" loop=""> 		
                  <source src="/wp-content/themes/video/header-screen_4hands_5.mp4" type="video/mp4" codecs="avc1.42E01E, mp4a.40.2"> 
@@ -191,7 +202,7 @@ body .widget_stm_schedule .stm_schedule_title_separator span
                         <div class="top_nav_wrapper clearfix top_nav_non-active">
 
                             <div class="logo">
-                                <a href="" class="logo__link logo__link_non-active"></a>
+                                <a href="index.html" class="logo__link logo__link_non-active"></a>
                             </div>
 
                             <ul id="menu-nav" class="main_menu_nav"><li id="menu-item-1237" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1237"><a class="top_nav__link_non-active">Home</a></li>
@@ -554,8 +565,83 @@ body .widget_stm_schedule .stm_schedule_title_separator span
 				</div>
 								</div>
 					</div>
-				</section>
-						<section data-id="e9f8baa" class="elementor-element elementor-element-e9f8baa elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-element_type="section">
+					</section>
+					<section>
+					<div class="counter">
+							<div class="container">
+								<div class="row">
+									<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+										<div class="employees">
+											<p class="counter-count">9</p>
+											<p class="employee-p">Years of Experience</p>
+										</div>
+									</div>
+						
+									<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+										<div class="customer">
+											<p class="counter-count">300</p>
+											<p class="customer-p">Work Days</p>
+										</div>
+									</div>
+						
+									<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+										<div class="design">
+											<p class="counter-count">554</p>
+											<p class="design-p">Happy Customers</p>
+										</div>
+									</div>
+						
+									<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+										<div class="order">
+											<p class="counter-count">10879</p>
+											<p class="order-p">Nail Arts Created</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<style>.counter
+								{
+									background-color: #eaecf0;
+									text-align: center;
+								}
+								.employees,.customer,.design,.order
+								{
+									margin-top: 70px;
+									margin-bottom: 70px;
+								}
+								.counter-count
+								{
+									font-size: 18px;
+									background-color: #e092c0;;
+									border-radius: 50%;
+									position: relative;
+									color: #ffffff;
+									text-align: center;
+									line-height: 92px;
+									width: 92px;
+									height: 92px;
+									-webkit-border-radius: 50%;
+									-moz-border-radius: 50%;
+									-ms-border-radius: 50%;
+									-o-border-radius: 50%;
+									display: inline-block;
+								}
+								
+								.employee-p,.customer-p,.order-p,.design-p
+								{
+									font-size: 24px;
+									color: #000000;
+									line-height: 34px;
+								}</style>
+
+
+			</section>
+
+
+
+						<section data-id="e9f8baa" class="elementor-element elementor-element-e9f8baa elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-element_type="section" style ="margin-top: -260px;">
 								<div class="elementor-container elementor-column-gap-default">
 						<div class="elementor-row">
 						<div data-id="c942ead" class="elementor-element elementor-element-c942ead elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
@@ -565,14 +651,29 @@ body .widget_stm_schedule .stm_schedule_title_separator span
 						<div class="elementor-widget-container">
 					<section id="instagram" class="instagram clearfix">
 						<div class="container">
+								<div class="row">
+										<div class="col-md-12">
+												<div class="instagram-info">
+														<div class="instagram-info__container clearfix"><a class="instagram__title" href="https://www.instagram.com/zoyas_nails_/" target="_blanket">
+														</a>
+						
+													</div>
+													<div class="instagram-entry"><a class="instagram__subscribe" href="https://www.instagram.com/zoyas_nails_/" target="_blanket" style="margin-left:-45px;">FOLLOW US on Instagram</a></div>
+												</div>
+										</div>
+									</div>
+						</div>
+						<div class="container">
+							
 							<div class="row">
+									
 								<div class="col-md-6">
 									<div class="instagram-tiles"><div class="ig-block  ig-block-loaded" id="ig-block-1" data-insgalid="1" data-source=""><div class="ig-spinner" style="display: none;"><svg version="1.1" class="ig-spin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 551.034 551.034" style="enable-background:new 0 0 551.034 551.034;" xml:space="preserve">
 					
 				</svg></div><div class="instagallery-items instagallery" data-source="user_4hands_life" id="instagal-1">
 			<div class="ig-item   cols-2" style="width: 50%;">
 				<a href="wp-content/uploads/2018/02/ig1.png" target="blank" data-title="" class="nofancybox"> <img src="wp-content/uploads/2018/02/ig1.png" alt="instagram" class="instagallery-image">
-			<span class="ig-likes-comments"><span><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path d="M377.594 32c-53.815 0-100.129 43.777-121.582 89.5-21.469-45.722-67.789-89.5-121.608-89.5-74.191 0-134.404 60.22-134.404 134.416 0 150.923 152.25 190.497 256.011 339.709 98.077-148.288 255.989-193.603 255.989-339.709 0-74.196-60.215-134.416-134.406-134.416z" fill="#fff"></path>Likes </svg>121</span><span><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path d="M256 32c-141.385 0-256 93.125-256 208s114.615 208 256 208c13.578 0 26.905-0.867 39.912-2.522 54.989 54.989 120.625 64.85 184.088 66.298v-13.458c-34.268-16.789-64-47.37-64-82.318 0-4.877 0.379-9.665 1.082-14.348 57.898-38.132 94.918-96.377 94.918-161.652 0-114.875-114.615-208-256-208z" fill="#fff"></path>Comments </svg>0</span></span>    </a>
+			<span class="ig-likes-comments"><span><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path d="M377.594 32c-53.815 0-100.129 43.777-121.582 89.5-21.469-45.722-67.789-89.5-121.608-89.5-74.191 0-134.404 60.22-134.404 134.416 0 150.923 152.25 190.497 256.011 339.709 98.077-148.288 255.989-193.603 255.989-339.709 0-74.196-60.215-134.416-134.406-134.416z" fill="#fff"></path>Likes </svg>121</span><span><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path d="M256 32c-141.385 0-256 93.125-256 208s114.615 208 256 208c13.578 0 26.905-0.867 39.912-2.522 54.989 54.989 120.625 64.85 184.088 66.298v-13.458c-34.268-16.789-64-47.37-64-82.318 0-4.877 0.379-9.665 1.082-14.348 57.898-38.132 94.918-96.377 94.918-161.652 0-114.875-114.615-208-256-208z" fill="#fff"></path>Comments </svg>3</span></span>    </a>
 			</div>
 				<div class="ig-item   cols-2" style="width: 50%;">
 				<a href="wp-content/uploads/2018/02/ig2.png" target="blank" data-title="" class="nofancybox"> <img src="wp-content/uploads/2018/02/ig2.png" alt="instagram" class="instagallery-image">
@@ -584,7 +685,7 @@ body .widget_stm_schedule .stm_schedule_title_separator span
 			</div>
 				<div class="ig-item   cols-2" style="width: 50%;">
 				<a href="wp-content/uploads/2018/02/ig11.png" target="blank" data-title="" class="nofancybox"> <img src="wp-content/uploads/2018/02/ig11.png" alt="instagram" class="instagallery-image">
-			<span class="ig-likes-comments"><span><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path d="M377.594 32c-53.815 0-100.129 43.777-121.582 89.5-21.469-45.722-67.789-89.5-121.608-89.5-74.191 0-134.404 60.22-134.404 134.416 0 150.923 152.25 190.497 256.011 339.709 98.077-148.288 255.989-193.603 255.989-339.709 0-74.196-60.215-134.416-134.406-134.416z" fill="#fff"></path>Likes </svg>166</span><span><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path d="M256 32c-141.385 0-256 93.125-256 208s114.615 208 256 208c13.578 0 26.905-0.867 39.912-2.522 54.989 54.989 120.625 64.85 184.088 66.298v-13.458c-34.268-16.789-64-47.37-64-82.318 0-4.877 0.379-9.665 1.082-14.348 57.898-38.132 94.918-96.377 94.918-161.652 0-114.875-114.615-208-256-208z" fill="#fff"></path>Comments </svg>11</span></span>    </a>
+			<span class="ig-likes-comments"><span><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path d="M377.594 32c-53.815 0-100.129 43.777-121.582 89.5-21.469-45.722-67.789-89.5-121.608-89.5-74.191 0-134.404 60.22-134.404 134.416 0 150.923 152.25 190.497 256.011 339.709 98.077-148.288 255.989-193.603 255.989-339.709 0-74.196-60.215-134.416-134.406-134.416z" fill="#fff"></path>Likes </svg>50</span><span><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path d="M256 32c-141.385 0-256 93.125-256 208s114.615 208 256 208c13.578 0 26.905-0.867 39.912-2.522 54.989 54.989 120.625 64.85 184.088 66.298v-13.458c-34.268-16.789-64-47.37-64-82.318 0-4.877 0.379-9.665 1.082-14.348 57.898-38.132 94.918-96.377 94.918-161.652 0-114.875-114.615-208-256-208z" fill="#fff"></path>Comments </svg>0</span></span>    </a>
 			</div>
 			
 			</div>
@@ -649,19 +750,19 @@ body .widget_stm_schedule .stm_schedule_title_separator span
 										</svg></div><div class="instagallery-items instagallery" data-source="user_4hands_life" id="instagal-1">
 									<div class="ig-item   cols-2" style="width: 50%;">
 										<a href="wp-content/uploads/2018/02/ig5.png" target="blank" data-title="" class="nofancybox"> <img src="wp-content/uploads/2018/02/ig5.png" alt="instagram" class="instagallery-image">
-									<span class="ig-likes-comments"><span><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path d="M377.594 32c-53.815 0-100.129 43.777-121.582 89.5-21.469-45.722-67.789-89.5-121.608-89.5-74.191 0-134.404 60.22-134.404 134.416 0 150.923 152.25 190.497 256.011 339.709 98.077-148.288 255.989-193.603 255.989-339.709 0-74.196-60.215-134.416-134.406-134.416z" fill="#fff"></path>Likes </svg>121</span><span><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path d="M256 32c-141.385 0-256 93.125-256 208s114.615 208 256 208c13.578 0 26.905-0.867 39.912-2.522 54.989 54.989 120.625 64.85 184.088 66.298v-13.458c-34.268-16.789-64-47.37-64-82.318 0-4.877 0.379-9.665 1.082-14.348 57.898-38.132 94.918-96.377 94.918-161.652 0-114.875-114.615-208-256-208z" fill="#fff"></path>Comments </svg>0</span></span>    </a>
+									<span class="ig-likes-comments"><span><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path d="M377.594 32c-53.815 0-100.129 43.777-121.582 89.5-21.469-45.722-67.789-89.5-121.608-89.5-74.191 0-134.404 60.22-134.404 134.416 0 150.923 152.25 190.497 256.011 339.709 98.077-148.288 255.989-193.603 255.989-339.709 0-74.196-60.215-134.416-134.406-134.416z" fill="#fff"></path>Likes </svg>41</span><span><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path d="M256 32c-141.385 0-256 93.125-256 208s114.615 208 256 208c13.578 0 26.905-0.867 39.912-2.522 54.989 54.989 120.625 64.85 184.088 66.298v-13.458c-34.268-16.789-64-47.37-64-82.318 0-4.877 0.379-9.665 1.082-14.348 57.898-38.132 94.918-96.377 94.918-161.652 0-114.875-114.615-208-256-208z" fill="#fff"></path>Comments </svg>1</span></span>    </a>
 									</div>
 										<div class="ig-item   cols-2" style="width: 50%;">
 										<a href="wp-content/uploads/2018/02/ig.8.png" target="blank" data-title="" class="nofancybox"> <img src="wp-content/uploads/2018/02/ig.8.png" alt="instagram" class="instagallery-image">
-									<span class="ig-likes-comments"><span><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path d="M377.594 32c-53.815 0-100.129 43.777-121.582 89.5-21.469-45.722-67.789-89.5-121.608-89.5-74.191 0-134.404 60.22-134.404 134.416 0 150.923 152.25 190.497 256.011 339.709 98.077-148.288 255.989-193.603 255.989-339.709 0-74.196-60.215-134.416-134.406-134.416z" fill="#fff"></path>Likes </svg>359</span><span><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path d="M256 32c-141.385 0-256 93.125-256 208s114.615 208 256 208c13.578 0 26.905-0.867 39.912-2.522 54.989 54.989 120.625 64.85 184.088 66.298v-13.458c-34.268-16.789-64-47.37-64-82.318 0-4.877 0.379-9.665 1.082-14.348 57.898-38.132 94.918-96.377 94.918-161.652 0-114.875-114.615-208-256-208z" fill="#fff"></path>Comments </svg>12</span></span>    </a>
+									<span class="ig-likes-comments"><span><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path d="M377.594 32c-53.815 0-100.129 43.777-121.582 89.5-21.469-45.722-67.789-89.5-121.608-89.5-74.191 0-134.404 60.22-134.404 134.416 0 150.923 152.25 190.497 256.011 339.709 98.077-148.288 255.989-193.603 255.989-339.709 0-74.196-60.215-134.416-134.406-134.416z" fill="#fff"></path>Likes </svg>51</span><span><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path d="M256 32c-141.385 0-256 93.125-256 208s114.615 208 256 208c13.578 0 26.905-0.867 39.912-2.522 54.989 54.989 120.625 64.85 184.088 66.298v-13.458c-34.268-16.789-64-47.37-64-82.318 0-4.877 0.379-9.665 1.082-14.348 57.898-38.132 94.918-96.377 94.918-161.652 0-114.875-114.615-208-256-208z" fill="#fff"></path>Comments </svg>2</span></span>    </a>
 									</div>
 										<div class="ig-item   cols-2" style="width: 50%;">
 										<a href="wp-content/uploads/2018/02/ig7.png" target="blank" data-title="" class="nofancybox"> <img src="wp-content/uploads/2018/02/ig7.png" alt="instagram" class="instagallery-image">
-									<span class="ig-likes-comments"><span><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path d="M377.594 32c-53.815 0-100.129 43.777-121.582 89.5-21.469-45.722-67.789-89.5-121.608-89.5-74.191 0-134.404 60.22-134.404 134.416 0 150.923 152.25 190.497 256.011 339.709 98.077-148.288 255.989-193.603 255.989-339.709 0-74.196-60.215-134.416-134.406-134.416z" fill="#fff"></path>Likes </svg>176</span><span><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path d="M256 32c-141.385 0-256 93.125-256 208s114.615 208 256 208c13.578 0 26.905-0.867 39.912-2.522 54.989 54.989 120.625 64.85 184.088 66.298v-13.458c-34.268-16.789-64-47.37-64-82.318 0-4.877 0.379-9.665 1.082-14.348 57.898-38.132 94.918-96.377 94.918-161.652 0-114.875-114.615-208-256-208z" fill="#fff"></path>Comments </svg>10</span></span>    </a>
+									<span class="ig-likes-comments"><span><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path d="M377.594 32c-53.815 0-100.129 43.777-121.582 89.5-21.469-45.722-67.789-89.5-121.608-89.5-74.191 0-134.404 60.22-134.404 134.416 0 150.923 152.25 190.497 256.011 339.709 98.077-148.288 255.989-193.603 255.989-339.709 0-74.196-60.215-134.416-134.406-134.416z" fill="#fff"></path>Likes </svg>22</span><span><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path d="M256 32c-141.385 0-256 93.125-256 208s114.615 208 256 208c13.578 0 26.905-0.867 39.912-2.522 54.989 54.989 120.625 64.85 184.088 66.298v-13.458c-34.268-16.789-64-47.37-64-82.318 0-4.877 0.379-9.665 1.082-14.348 57.898-38.132 94.918-96.377 94.918-161.652 0-114.875-114.615-208-256-208z" fill="#fff"></path>Comments </svg>1</span></span>    </a>
 									</div>
 										<div class="ig-item   cols-2" style="width: 50%;">
 										<a href="wp-content/uploads/2018/02/ig9.png" target="blank" data-title="" class="nofancybox"> <img src="wp-content/uploads/2018/02/ig9.png" alt="instagram" class="instagallery-image">
-									<span class="ig-likes-comments"><span><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path d="M377.594 32c-53.815 0-100.129 43.777-121.582 89.5-21.469-45.722-67.789-89.5-121.608-89.5-74.191 0-134.404 60.22-134.404 134.416 0 150.923 152.25 190.497 256.011 339.709 98.077-148.288 255.989-193.603 255.989-339.709 0-74.196-60.215-134.416-134.406-134.416z" fill="#fff"></path>Likes </svg>166</span><span><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path d="M256 32c-141.385 0-256 93.125-256 208s114.615 208 256 208c13.578 0 26.905-0.867 39.912-2.522 54.989 54.989 120.625 64.85 184.088 66.298v-13.458c-34.268-16.789-64-47.37-64-82.318 0-4.877 0.379-9.665 1.082-14.348 57.898-38.132 94.918-96.377 94.918-161.652 0-114.875-114.615-208-256-208z" fill="#fff"></path>Comments </svg>11</span></span>    </a>
+									<span class="ig-likes-comments"><span><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path d="M377.594 32c-53.815 0-100.129 43.777-121.582 89.5-21.469-45.722-67.789-89.5-121.608-89.5-74.191 0-134.404 60.22-134.404 134.416 0 150.923 152.25 190.497 256.011 339.709 98.077-148.288 255.989-193.603 255.989-339.709 0-74.196-60.215-134.416-134.406-134.416z" fill="#fff"></path>Likes </svg>77</span><span><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><path d="M256 32c-141.385 0-256 93.125-256 208s114.615 208 256 208c13.578 0 26.905-0.867 39.912-2.522 54.989 54.989 120.625 64.85 184.088 66.298v-13.458c-34.268-16.789-64-47.37-64-82.318 0-4.877 0.379-9.665 1.082-14.348 57.898-38.132 94.918-96.377 94.918-161.652 0-114.875-114.615-208-256-208z" fill="#fff"></path>Comments </svg>6</span></span>    </a>
 									</div>
 									
 									</div>
@@ -716,13 +817,7 @@ body .widget_stm_schedule .stm_schedule_title_separator span
 									</script>
 								</div> <!-- // IG BLOCK -->	</div>
 
-									<!-- <div class="instagram-info">
-										<div class="instagram-info__container clearfix"><a class="instagram__title" href="https://www.instagram.com/4hands_life" target="_blanket">
-										We are on Instagram</a>
-		
-									</div>
-									<div class="instagram-entry"><a class="instagram__subscribe" href="https://www.instagram.com/zoyas_nails_/" target="_blanket">FOLLOW US</a></div>
-								</div> -->
+									
 							 </div> 
 						</div>
 					</div>
@@ -763,6 +858,8 @@ body .widget_stm_schedule .stm_schedule_title_separator span
 		</div>
 		
 		</div>
+	
+	</section>
 
 
 
@@ -890,7 +987,8 @@ body .widget_stm_schedule .stm_schedule_title_separator span
 			
 		<script src="/wp-content/themes/js/jquery.spincrement.js"></script>
 		<script src="/wp-content/themes/js/studios.js"></script>
-
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
 		
 <script type="text/javascript" src="wp-content/plugins/contact-form-7/js/script.js"></script>
 <script type="text/javascript" src="wp-includes/jquery/ui/core.min.js"></script>
@@ -922,6 +1020,7 @@ body .widget_stm_schedule .stm_schedule_title_separator span
 
         
 <script type="text/javascript" src="//w12204.yclients.com/widgetJS" charset="UTF-8"></script>
+
 
     
 
